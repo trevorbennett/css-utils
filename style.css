@@ -1,0 +1,50 @@
+
+.body-style {
+    background-color: yellow;
+}
+
+.thin-grid {
+	height: 50%;
+	width: 25%;
+    background-color: blue;
+	float: left;
+
+}
+
+.fat-grid {
+	height: 25%;
+	width: 50%;
+    background-color: green;
+	float: left;
+
+}
+
+.thin-grid-right {
+	height: 50%;
+	width: 25%;
+    background-color: pink;
+	float: right;
+
+}
+
+.fat-grid-split-30 {
+	height: 45%;
+	width: 30%;
+    background-color: red;
+	float: left;
+}
+
+.fat-grid-split-25 {
+	height: 25%;
+	width: 25%;
+    background-color: aqua;
+	float: left;
+}
+
+
+.fat-grid-split-20 {
+	height: 25%;
+	width: 20%;
+    background-color: white;
+	float: right;
+}
