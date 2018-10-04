@@ -76,6 +76,37 @@
   text-align: center;
 }
 
+.tile-bottom-right:hover {
+	background-color: 83919c;
+}
+.tile-bottom-right:hover {
+	background-color: 83919c;
+}
+.tile-bottom-right:hover {
+	background-color: 83919c;
+}
+.tile-bottom-right:hover {
+	background-color: 83919c;
+}
+.tile-bottom-right:hover {
+	background-color: 83919c;
+}
+.tile-bottom-right:hover {
+	background-color: 83919c;
+}
+.tile-bottom-right:hover {
+	background-color: 83919c;
+}
+.tile-bottom-right:hover {
+	background-color: 83919c;
+}
+.tile-bottom-right:hover {
+	background-color: 83919c;
+}
+.tile-bottom-right:hover {
+	background-color: 83919c;
+}
+
 .auto {
   position: absolute;
   left: 50%;
@@ -108,4 +139,8 @@
 	font-size: 3vw;
 	color: 000;
 	font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+}
+
+.clickable {
+	cursor: pointer;
 }
