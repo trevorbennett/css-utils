@@ -69,20 +69,20 @@
 	grid-template-areas: 
 	"i1 i1 i1 i1 i2 i2 i3 i3 i3 i3"
 	"i1 i1 i1 i1 i2 i2 i3 i3 i3 i3"
-	"i1 i1 i1 i1 i2 i2 i7 i7 i7 i7"
-	"i4 i4 i5 i5 i2 i2 i7 i7 i7 i7"
-	"i4 i4 i5 i5 i2 i2 i7 i7 i7 i7"
-	"i4 i4 i5 i5 i6 i6 i7 i7 i7 i7"
-	"i8 i8 i5 i5 i6 i6 i7 i7 i7 i7"
-	"i8 i8 i9 i9 i9 i0 i0 i0 i0 i0"
-	"i8 i8 i9 i9 i9 i0 i0 i0 i0 i0"
-	"i8 i8 i9 i9 i9 i0 i0 i0 i0 i0"
+	"i1 i1 i1 i1 i2 i2 i3 i3 i3 i3"
+	"i4 i4 i5 i5 i2 i2 i3 i3 i3 i3"
+	"i4 i4 i5 i5 i2 i2 i3 i3 i3 i3"
+	"i4 i4 i5 i5 i6 i0 i0 i7 i7 i7"
+	"i8 i8 i5 i5 i6 i0 i0 i7 i7 i7"
+	"i8 i8 i5 i5 i6 i0 i0 i7 i7 i7"
+	"i8 i8 i9 i9 i9 i9 i9 i7 i7 i7"
+	"i8 i8 i9 i9 i9 i9 i9 i7 i7 i7"
 
 }
 
 .pretty-text {
-	font-size: 2vw;
+	font-size: 3vw;
 	text-align:center;
-	color: 333;
-	font-family: "Palatino";
+	color: c33;
+	font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
 }
