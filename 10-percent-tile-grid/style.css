@@ -76,33 +76,42 @@
   text-align: center;
 }
 
-.tile-bottom-right:hover {
-	background-color: 83919c;
+.tile-top-left:hover {
+  background-color: ef6789;
 }
-.tile-bottom-right:hover {
-	background-color: 83919c;
+
+.tile-top-center:hover {
+  background-color: 00bc00;
 }
-.tile-bottom-right:hover {
-	background-color: 83919c;
+
+.tile-top-right:hover {
+  background-color: b65c78;
 }
-.tile-bottom-right:hover {
-	background-color: 83919c;
+
+.tile-center-left:hover {
+	background-color: 0067a5;
 }
-.tile-bottom-right:hover {
-	background-color: 83919c;
+
+.tile-center-mid-left:hover {
+	background-color: df7900;
 }
-.tile-bottom-right:hover {
-	background-color: 83919c;
+
+.tile-center-mid-right:hover {
+    background-color: 0D91E2;
 }
-.tile-bottom-right:hover {
-	background-color: 83919c;
+
+.tile-center-right:hover {
+    background-color: ef9a78;
 }
-.tile-bottom-right:hover {
-	background-color: 83919c;
+
+.tile-bottom-left:hover {
+    background-color: 5cb634;
 }
-.tile-bottom-right:hover {
-	background-color: 83919c;
+
+.tile-bottom-center:hover {
+    background-color: efc600;
 }
+
 .tile-bottom-right:hover {
 	background-color: 83919c;
 }
