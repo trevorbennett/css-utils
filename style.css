@@ -5,54 +5,54 @@
 }
 
 .tile-top-left {
-    background-color: ff0;
+    background-color: ffa;
 	grid-area: i1; 	
 
 }
 
 .tile-top-center {
-    background-color: fe1;
+    background-color: afa;
 	grid-area: i2; 	
 
 }
 
 .tile-top-right {
 
-    background-color: fd2;
+    background-color: f77;
 	grid-area: i3; 	
 
 }
 
 .tile-center-left {
-    background-color: fc3;
+    background-color: 0077b5;
 	grid-area: i4; 	
 }
 
 .tile-center-mid-left {
 	grid-area: i5;
-    background-color: fb4;
+    background-color: f63;
 }
 
 .tile-center-mid-right {
 	grid-area: i6; 	
-    background-color: fa5;
+    background-color: 1DA1F2;
 
 }
 
 .tile-center-right {
 	grid-area: i7; 	
-    background-color: f96;
+    background-color: fdb;
 
 }
 
 .tile-bottom-left {
 	grid-area: i8; 	
-    background-color: f87;
+    background-color: 6cc644;
 }
 
 .tile-bottom-center {
 	grid-area: i9; 	
-    background-color: f78;
+    background-color: ffd700;
 }
 
 .tile-bottom-right {
