@@ -1,0 +1,111 @@
+
+.body-style {
+    background-color: white;
+	margin:0;
+}
+
+.tile-top-left {
+    background-color: ff7799;
+	grid-area: i1;
+  position: relative;
+  text-align: center;
+}
+
+.tile-top-center {
+    background-color: 08cc08;
+	grid-area: i2;
+  position: relative;
+  text-align: center;
+}
+
+.tile-top-right {
+
+    background-color: c66c88;
+	grid-area: i3;
+  position: relative;
+  text-align: center;
+
+}
+
+.tile-center-left {
+    background-color: 0077b5;
+	grid-area: i4;
+  position: relative;
+  text-align: center;
+}
+
+.tile-center-mid-left {
+	grid-area: i5;
+    background-color: ff9911;
+    position: relative;
+    text-align: center;
+}
+
+.tile-center-mid-right {
+	grid-area: i6;
+    background-color: 1DA1F2;
+    position: relative;
+    text-align: center;
+}
+
+.tile-center-right {
+	grid-area: i7;
+    background-color: ffaa88;
+    position: relative;
+    text-align: center;
+}
+
+.tile-bottom-left {
+	grid-area: i8;
+    background-color: 6cc644;
+    position: relative;
+    text-align: center;
+}
+
+.tile-bottom-center {
+	grid-area: i9;
+    background-color: ffd700;
+    text-align: center;
+    position: relative;
+}
+
+.tile-bottom-right {
+	grid-area: i0;
+  background-color: 93A1AC;
+  position: relative;
+  text-align: center;
+}
+
+.auto {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.grid-container {
+	display:grid;
+	height:100%;
+	width:100%;
+	grid-template-columns: 10% 10% 10% 10% 10% 10% 10% 10% 10% 10%;
+	grid-template-rows: 10% 10% 10% 10% 10% 10% 10% 10% 10% 10%;
+	grid-template-areas:
+	"i1 i1 i1 i1 i2 i2 i2 i3 i3 i3"
+	"i1 i1 i1 i1 i2 i2 i2 i3 i3 i3"
+	"i1 i1 i1 i1 i2 i2 i2 i3 i3 i3"
+	"i4 i4 i5 i5 i2 i2 i2 i3 i3 i3"
+	"i4 i4 i5 i5 i2 i2 i2 i3 i3 i3"
+	"i4 i4 i5 i5 i6 i6 i7 i7 i0 i0"
+	"i8 i8 i5 i5 i6 i6 i7 i7 i0 i0"
+	"i8 i8 i5 i5 i6 i6 i7 i7 i0 i0"
+	"i8 i8 i9 i9 i9 i9 i7 i7 i0 i0"
+	"i8 i8 i9 i9 i9 i9 i7 i7 i0 i0"
+
+}
+
+.pretty-text {
+
+	font-size: 1.5vw;
+	color: 000;
+	font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+}
