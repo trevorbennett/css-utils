@@ -5,14 +5,14 @@
 }
 
 .tile-top-left {
-    background-color: bbbbbb;
+    background-color: ff7799;
 	grid-area: i1;
   position: relative;
   text-align: center;
 }
 
 .tile-top-center {
-    background-color: 505050;
+    background-color: 08cc08;
 	grid-area: i2;
   position: relative;
   text-align: center;
@@ -20,7 +20,7 @@
 
 .tile-top-right {
 
-    background-color: 989898;
+    background-color: c66c88;
 	grid-area: i3;
   position: relative;
   text-align: center;
@@ -28,7 +28,7 @@
 }
 
 .tile-center-left {
-    background-color: 666666;
+    background-color: 0077b5;
 	grid-area: i4;
   position: relative;
   text-align: center;
@@ -36,84 +36,84 @@
 
 .tile-center-mid-left {
 	grid-area: i5;
-    background-color: e1e1e1;
+    background-color: ff9911;
     position: relative;
     text-align: center;
 }
 
 .tile-center-mid-right {
 	grid-area: i6;
-    background-color: 999999;
+    background-color: 1DA1F2;
     position: relative;
     text-align: center;
 }
 
 .tile-center-right {
 	grid-area: i7;
-    background-color: b9b9b9;
+    background-color: ffaa88;
     position: relative;
     text-align: center;
 }
 
 .tile-bottom-left {
 	grid-area: i8;
-    background-color: 7b7b7b;
+    background-color: 6cc644;
     position: relative;
     text-align: center;
 }
 
 .tile-bottom-center {
 	grid-area: i9;
-    background-color: a1a1a1;
+    background-color: ffd700;
     text-align: center;
     position: relative;
 }
 
 .tile-bottom-right {
 	grid-area: i0;
-  background-color: a0a0a0;
+  background-color: 93A1AC;
   position: relative;
   text-align: center;
 }
 
 .tile-top-left:hover {
-  background-color: ff7799;
+  background-color: ef6789;
 }
 
 .tile-top-center:hover {
-  background-color: 08cc08;
+  background-color: 00bc00;
 }
 
 .tile-top-right:hover {
-  background-color: c66c88;
+  background-color: b65c78;
 }
 
 .tile-center-left:hover {
-	background-color: 0077b5;
+	background-color: 0067a5;
 }
 
 .tile-center-mid-left:hover {
-	background-color: ff9911;
+	background-color: df7900;
 }
 
 .tile-center-mid-right:hover {
-    background-color: 1DA1F2;
+    background-color: 0D91E2;
 }
 
 .tile-center-right:hover {
-    background-color: ffaa88;
+    background-color: ef9a78;
 }
 
 .tile-bottom-left:hover {
-    background-color: 6cc644;
+    background-color: 5cb634;
 }
 
 .tile-bottom-center:hover {
-    background-color: ffd700;
+    background-color: efc600;
 }
 
 .tile-bottom-right:hover {
-	background-color: 73A1CC;
+	background-color: 83919c;
 }
 
 .auto {
