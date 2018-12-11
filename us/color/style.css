@@ -1,46 +1,7 @@
 
-h1 {
-    display: inline;
-	text-align:right;
-		margin-left: 5em;
-
-}
-
-.photo {
-float:left;
-}
-
-.bound-box {
-			margin-left: 3em;
-			margin-right:3em;
-}
-
-.margin-left-em {
-		margin-left: 1em;
-}
-
-.margin-right-em {
-		margin-right: 1em;
-}
-
 .body-style {
     background-color: white;
 	margin:0;
-}
-
-.tile-header {
-    background-color: ffbb77;
-	grid-area: i0;
-  position: relative;
-  text-align: center;
-}
-
-.tile-header-text {
-  position: absolute;
-  text-align: left;
-  
-  top: 50%;
-  transform: translate(0%, -50%);
 }
 
 .tile-top-left {
@@ -109,10 +70,50 @@ float:left;
 }
 
 .tile-bottom-right {
-	grid-area: ia;
+	grid-area: i0;
   background-color: 93A1AC;
   position: relative;
   text-align: center;
+}
+
+.tile-top-left:hover {
+  background-color: ef6789;
+}
+
+.tile-top-center:hover {
+  background-color: 00bc00;
+}
+
+.tile-top-right:hover {
+  background-color: b65c78;
+}
+
+.tile-center-left:hover {
+	background-color: 0067a5;
+}
+
+.tile-center-mid-left:hover {
+	background-color: df7900;
+}
+
+.tile-center-mid-right:hover {
+    background-color: 0D91E2;
+}
+
+.tile-center-right:hover {
+    background-color: ef9a78;
+}
+
+.tile-bottom-left:hover {
+    background-color: 5cb634;
+}
+
+.tile-bottom-center:hover {
+    background-color: efc600;
+}
+
+.tile-bottom-right:hover {
+	background-color: 83919c;
 }
 
 .auto {
@@ -124,17 +125,38 @@ float:left;
 
 .grid-container {
 	display:grid;
-	height:8.333%;
+	height:100%;
 	width:100%;
-	grid-template-columns: 100%;
-	grid-template-rows: 100%;
+	grid-template-columns: 10% 10% 10% 10% 10% 10% 10% 10% 10% 10%;
+	grid-template-rows: 10% 10% 10% 10% 10% 10% 10% 10% 10% 10%;
 	grid-template-areas:
-	"i0"
+	"i1 i1 i1 i1 i2 i2 i2 i3 i3 i3"
+	"i1 i1 i1 i1 i2 i2 i2 i3 i3 i3"
+	"i1 i1 i1 i1 i2 i2 i2 i3 i3 i3"
+	"i4 i4 i5 i5 i2 i2 i2 i3 i3 i3"
+	"i4 i4 i5 i5 i2 i2 i2 i3 i3 i3"
+	"i4 i4 i5 i5 i6 i6 i7 i7 i0 i0"
+	"i8 i8 i5 i5 i6 i6 i7 i7 i0 i0"
+	"i8 i8 i5 i5 i6 i6 i7 i7 i0 i0"
+	"i8 i8 i9 i9 i9 i9 i7 i7 i0 i0"
+	"i8 i8 i9 i9 i9 i9 i7 i7 i0 i0"
+
 }
 
 .pretty-text {
 
-	font-size: 2vw;
-	color: 000;
+	font-size: 3vw;
+	color: 000000;
 	font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+}
+
+.hidden-text {
+
+	font-size: 1.25vw;
+	color: 666666;
+	font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+}
+
+.clickable {
+	cursor: pointer;
 }
