@@ -11,7 +11,7 @@ float:left;
 }
 
 .bound-box {
-			margin-left: 3em;
+			margin-left: 1em;
 			margin-right:3em;
 }
 
@@ -134,7 +134,7 @@ float:left;
 
 .pretty-text {
 
-	font-size: 2vw;
+	font-size: 1.5vw;
 	color: 000;
 	font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
 }
